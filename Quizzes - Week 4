@@ -6,3 +6,11 @@ crop = data(30:50,20:90);
 imagesc(crop)
 
 # MATH
+
+Quiz 2 - Color Images
+
+load RGB
+im = cat(3,R,G,B);
+imshow(im)
+
+# Color Images In MATLAB
