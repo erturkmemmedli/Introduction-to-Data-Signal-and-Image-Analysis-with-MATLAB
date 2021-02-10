@@ -14,3 +14,38 @@ im = cat(3,R,G,B);
 imshow(im)
 
 # Color Images In MATLAB
+
+Quiz 3 - Motion
+
+filter = fspecial('motion');
+img = imread('cameraman.tif');
+conved = conv2(img,filter,'same');
+meanIntensityValue = mean2(conved);
+
+# ---
+
+Quiz 4 - Convex Hull
+
+load convhull.mat
+CH = bwconvhull(msk);
+imshow(CH);
+
+# hexagon
+
+Quiz 5 - Dilation and Erosion
+
+img = imread('cameraman.tif');
+thrsh = otsuthresh(imhist(img))*255;
+msk = img <= thrsh;
+msk_erode = imerode(msk,ones(7,7));
+dilated = imdilate(msk_erode,ones(7,7));
+ConnectedComponent = bwconncomp(dilated)
+
+subplot(3,1,1)
+plot(msk)
+subplot(3,1,2)
+plot(msk_erode)
+subplot(3,1,3)
+plot(dilated)
+
+# 6
