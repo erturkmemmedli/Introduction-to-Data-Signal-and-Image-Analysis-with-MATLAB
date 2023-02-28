@@ -1,4 +1,4 @@
-# MATLAB Programming for Engineers and Scientists
+# MATLAB Programming for Engineers and Scientists ([Certificate](https://www.coursera.org/account/accomplishments/specialization/certificate/GVN48LCNEPZW))
 
 - Computer programming in general and the MATLAB language in particular.
 - Program efficiency and an introduction to algorithm complexity.
@@ -22,5 +22,3 @@
 - Applying machine learning methods for data classification and prediction in MATLAB.
 - Experience with methods for data visualization, including high dimensional datasets in MATLAB.
 - Essential signal frequency analysis and image processing methods in MATLAB.
-
-[Certificate](https://www.coursera.org/account/accomplishments/specialization/certificate/GVN48LCNEPZW)
